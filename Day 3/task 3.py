@@ -11,7 +11,7 @@ total_price = pendrive_price + keyboard_price + mouse_price + headphone_price
 
 print('Your total cost is: ', total_price, 'taka')
 
-if total_price >= 1000:
+if total_price > 1000:
     discount_20_per = total_price * 20/100
     discounted_price = total_price - discount_20_per
     print('You got discount of: ', discount_20_per, 'taka')
