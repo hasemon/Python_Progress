@@ -5,14 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb396124-bd93-4976-813f-5876294f3cd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Day 4/solution_11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day 3/task 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 3/task 3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day 4/solution_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 4/solution_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Check resuls program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spilt and replace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/while loop task 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/while loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lecture 4/solution_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lecture 4/solution_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lecture 4/solution_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lecture 4/solution_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lecture 4/solution_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lecture 4/solution_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/solution_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 4/solution_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/solution_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 4/solution_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 4/bonus nested if.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -24,30 +44,31 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2VpHVPTZMe6dSUuvf6shsAekTXm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/RoadToPython/Python_Progress/Day 4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/RoadToPython/Python_Progress/Lecture 4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="task_0" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="spilt and replace" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Day 5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +81,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\RoadToPython\Python_Progress\Day 5\task_0.py" />
+      <option name="SCRIPT_NAME" value="D:\RoadToPython\Python_Progress\Day 5\spilt and replace.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,6 +100,12 @@
       <option name="presentableId" value="Default" />
       <updated>1695526124967</updated>
       <workItem from="1695526126162" duration="3374000" />
+      <workItem from="1695574298616" duration="65000" />
+      <workItem from="1695640962490" duration="8172000" />
+      <workItem from="1695656398491" duration="2667000" />
+      <workItem from="1695691362190" duration="76000" />
+      <workItem from="1695693175391" duration="1355000" />
+      <workItem from="1695718988926" duration="1156000" />
     </task>
     <servers />
   </component>
@@ -87,6 +114,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Day_5$main.coverage" NAME="main Coverage Results" MODIFIED="1695526986453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Day_5$spilt_and_replace.coverage" NAME="spilt and replace Coverage Results" MODIFIED="1695656889607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Day_5$while_loop_task.coverage" NAME="while loop task Coverage Results" MODIFIED="1695719155558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Day_5$task_4.coverage" NAME="task 4 Coverage Results" MODIFIED="1695527092475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day 3" />
+    <SUITE FILE_PATH="coverage/Day_5$while_loop_task_1.coverage" NAME="while loop task 1 Coverage Results" MODIFIED="1695719761837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Day_5$while_loop.coverage" NAME="while loop Coverage Results" MODIFIED="1695694334241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Day_5$task_0.coverage" NAME="spilt and replace Coverage Results" MODIFIED="1695643772398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Day_5$Check_resuls_program.coverage" NAME="Check resuls program Coverage Results" MODIFIED="1695658121674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Day_5$sets.coverage" NAME="sets Coverage Results" MODIFIED="1695644766820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

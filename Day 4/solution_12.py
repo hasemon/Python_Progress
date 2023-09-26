@@ -7,7 +7,7 @@
 total_classes_held = int(input('Total classes held: '))
 classes_attended = int(input('Total classes attended: '))
 
-percentage_of_attendance = (classes_attended * 100) / total_classes_held
+percentage_of_attendance = (classes_attended / total_classes_held) * 100
 
 if percentage_of_attendance < 70:
     print(f'Your attendance is : {int(percentage_of_attendance)} percent')
