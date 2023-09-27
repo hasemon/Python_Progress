@@ -5,4 +5,4 @@ number = int(input('Enter the number to find all odd number: '))
 i = 1
 while i <= number:
     print(i)
-    i += 2
+    i += 1
