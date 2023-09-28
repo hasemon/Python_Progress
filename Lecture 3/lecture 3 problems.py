@@ -16,9 +16,11 @@ Practice Problems
 11. Write a program to display the multiplication table of a given integer.
 12. Write a program to print the reverse of a number.
 13. Write a program to print the sum of digits in a number.
+* Bonus if the returned number is Palindrome or not.
 14. Write a program to display Fibonacci series up to 10 terms.
 15. Write a program to check whether a given number is a 'Perfect' number or
 not. Perfect number, a positive integer that is equal to the sum of its
 proper divisors. The smallest perfect number is 6, which is the sum of 1, 2,
 and 3.
-16. Write a program to determine whether a given number is prime or not."""
+16. Write a program to determine whether a given number is prime or not.
+"""
