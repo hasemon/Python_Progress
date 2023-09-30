@@ -2,13 +2,13 @@
 
 number = int(input('Check if the number is prime or not: '))
 
-primeNumber = 0
+divisor = 0
 i = 1
 while i <= number:
     if number % i == 0:
-        primeNumber += 1
+        divisor += 1
     i += 1
-if primeNumber == 2:
+if divisor == 2:
     print(f'{number} is prime number.')
 else:
     print(f'{number} is prime not a number.')
