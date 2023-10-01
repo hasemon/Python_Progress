@@ -1,8 +1,11 @@
+# ask quantity , cost and discount percentage
+# if  total cost is more than 2000 than calculate the price with input discount.
+
 quantity = int(input("Enter quantity: "))
 cost = int(input("Enter cost: "))
 discount = int(input("Enter discount percentage: "))
 
-totalCost = (quantity * cost)
+totalCost = quantity * cost
 discountPercent = (totalCost * discount) / 100
 
 priceWithDiscount = totalCost - discountPercent

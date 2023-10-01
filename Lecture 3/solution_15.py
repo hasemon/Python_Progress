@@ -15,4 +15,4 @@ while divisor < number:
 if sumOfNumber == number:
     print(f'{number} is perfect number.')
 else:
-    print(f'{number} is not a perfect number')
+    print(f'{number} is not a perfect number.')
