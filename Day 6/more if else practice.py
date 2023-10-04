@@ -1,7 +1,22 @@
 print('if elif else - Exercise')
 # Create a calculator which handles +,-,*,/ and outputs answer based on the mode/ operator used
 # Hint: use 3 separate inputs
-# Bonus: Extend functionality with extra mode, so it also does Celsius to Fahrenheit conversion
-# formula is: temp in C*9/5 + 32 = temp in f
 
-firstNumber = int(input())
+
+firstNumber = int(input('Enter the first number: '))
+operation = input('Enter the operation: ')
+secondNumber = int(input('Enter the second number: '))
+
+result = 0
+if operation == '+':
+    result = firstNumber + secondNumber
+elif operation == '-':
+    result = firstNumber - secondNumber
+elif operation == '*':
+    result = firstNumber * secondNumber
+elif operation == '/':
+    result = firstNumber / secondNumber
+else:
+    print('invalid operation')
+
+print('Result is: ', result)
