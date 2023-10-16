@@ -1,0 +1,10 @@
+1. Write a program to sum the numbers in a list using for loop.
+2. Write a program to find the avg marks of students in a class using list.
+3. Create a list of marks of ten students.
+4. Find the largest and smallest mark in the list.
+5. Find the average mark of the students.
+6. Sort the marks in ascending order.
+7. Sort the marks in descending order.
+8. Remove the smallest mark from the list.
+9. Insert the average mark at the mid-position of the list.
+10. Create another list of five students’ mark and merge the two lists.

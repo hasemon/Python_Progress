@@ -1,12 +1,9 @@
-"""
 Practice Problems
-1. Write a program to accept two integers and check whether they are equal or
-not.
+1. Write a program to accept two integers and check whether they are equal or not.
 
 2. Write a program to check whether a given number is even or odd.
 
-3. Write a program to read the age of a candidate and determine whether s/he is
-eligible for casting vote.
+3. Write a program to read the age of a candidate and determine whether s/he is eligible for casting vote.
 
 4. Write a program to find the largest of three numbers.
 
@@ -40,4 +37,3 @@ than 70%. Take following input from user & print percentage of class
 attended. Is student is allowed to sit in exam or not?
 • Number of classes held
 • Number of classes attended.
-"""
