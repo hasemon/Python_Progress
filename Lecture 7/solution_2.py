@@ -9,7 +9,16 @@ def find_range(input_number, starting, ending):
     return input_number in range(starting, ending + 1)
 
 
-result = find_range(number, range1, range2)
+# alternative way
+
+def find_range2(input_number, starting, ending):
+    inRange = False
+    if starting <= input_number <= ending:
+        inRange = True
+    return inRange
+
+
+result = find_range2(number, range1, range2)
 if result:
     print(f'{number} is in the RANGE of {range1} and {range2}')
 else:

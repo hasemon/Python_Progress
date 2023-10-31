@@ -9,6 +9,14 @@ def sum_of_list(given_list):
     return sum(given_list)
 
 
-print('Sum of small list: ', sum_of_list(small_list))
+# alternate way
+def sum_list(l_list):
+    sumOfList = 0
+    for i in l_list:
+        sumOfList += i
+    return sumOfList
+
+
+print('Sum of small list: ', sum_list(small_list))
 print('Sum of big list: ', sum_of_list(big_list))
 print('Sum of ultra big list: ', sum_of_list(ultra_big_list))
