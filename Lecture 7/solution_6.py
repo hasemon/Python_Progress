@@ -1,27 +1,25 @@
-# reverse function
+# 6. Write two Python function as sum() & average() to find the average of three numbers.
 
-def reverseNum(number):
-    newNumber = 0
-    while number > 0:
-        digit = number % 10
-        newNumber = newNumber * 10 + digit
-        number = number // 10
-    return newNumber
+# Defining Functions
+
+def sumOfThreeNumbers(a, b, c):
+    sumResult = a + b + c
+    return sumResult
 
 
-def checkPalindrome(number):
-    number1 = reverseNum(number)
-    if number1 == number:
-        Palindrome = True
-    else:
-        Palindrome = False
-    return Palindrome
+def averageOfThreeNumbers(a, b, c):
+    averageResult = sumOfThreeNumbers(a, b, c) / 3
+    return averageResult
 
 
-n = int(input("Enter a number to check for palindrome: "))
-output = checkPalindrome(n)
-if output:
-    print("The number is palindrome")
-else:
-    print('The number is not palindrome')
+# Calling functions
 
+num1 = int(input("Enter 1st Number: "))
+num2 = int(input("Enter 2nd Number: "))
+num3 = int(input("Enter 3rd Number: "))
+
+sumOfThreeNumbers(num1, num2, num3)
+
+averaging = averageOfThreeNumbers(num1, num2, num3)
+
+print('The average of three numbers is: ', averaging)

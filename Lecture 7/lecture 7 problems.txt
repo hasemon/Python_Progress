@@ -12,5 +12,5 @@ function.
 9. Write a program in Python to calculate the sum of numbers from 1 to n using
 recursion.
 10. Write a program in Python to find the GCD of two numbers using recursion.
-11. Write a Python program to calculate the value of 'a' to the power of 'b‘using
+11. Write a Python program to calculate the value of 'a' to the power of 'b' using
 recursion.
