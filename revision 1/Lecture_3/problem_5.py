@@ -1,0 +1,15 @@
+# Write a program to find the smallest of three numbers.
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+smallest = 0
+if num1 < num2 and num1 < num3:
+    smallest = num1
+elif num2 < num1 and num2 < num3:
+    smallest = num2
+else:
+    smallest = num3
+
+print("Smallest number is: ", smallest)
