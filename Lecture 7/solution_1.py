@@ -1,9 +1,9 @@
 # 1. Write a Python function to find the max of three numbers.
 
 def max_num(first, second, third):
-    if first > second:
+    if first > second and first > third:
         max_number = first
-    elif second > third:
+    elif second > first and second > third:
         max_number = second
     else:
         max_number = third
@@ -27,5 +27,5 @@ def max_num_method(first, second, third):
 
 maximum_number_method = max_num_method(num1, num2, num3)
 
-print(f'The maximum of {num1} , {num2} and {num3} is {maximum_number}')
-print(f'The maximum of {num1} , {num2} and {num3} with method is {maximum_number_method}')
+print(f'The maximum of {num1} , {num2} and {num3} is: {maximum_number}')
+print(f'The maximum of {num1} , {num2} and {num3} with method is: {maximum_number_method}')

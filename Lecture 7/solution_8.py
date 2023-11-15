@@ -1,10 +1,9 @@
 # 8. Write a Python function to calculate the factorial of a number using recursive function.
 
 # example of a recursive function
-
 def count_down(n):
     print(n)
-    if n > 1:
+    if n > 0:
         n -= 1
         count_down(n)
 

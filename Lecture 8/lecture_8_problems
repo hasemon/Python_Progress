@@ -1,0 +1,8 @@
+1. Write a Python program to calculate the length of a string.
+2. Write a Python program to get a string made of the first 2 and last 2
+characters of a given string. If the string length is less than 2, return the
+empty string instead.
+3. Write a Python program to remove the nth index character from a
+nonempty string.
+4. Write a Python script that takes input from the user and displays that
+input back in upper and lower cases based on selection.
