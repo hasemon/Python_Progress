@@ -25,4 +25,27 @@ def factorial(n):
 
 print('factorial is:', factorial(5))
 
+
 # recursive way of printing factorial
+
+def rFactorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * rFactorial(n - 1)
+
+
+print('factorial is:', rFactorial(5))
+
+
+
+
+
+
+
+
+
+
+
+
+

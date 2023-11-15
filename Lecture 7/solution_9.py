@@ -8,3 +8,16 @@ def sumOfNumbers(n):
 
 
 print(sumOfNumbers(10))
+
+
+# alternative
+def rSumOfNumbers(num):
+    if num == 1:
+        return 1
+    else:
+        return num + rSumOfNumbers(num - 1)
+
+
+print(rSumOfNumbers(10))
+
+
