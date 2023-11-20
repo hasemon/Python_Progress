@@ -1,24 +1,26 @@
 totalStudents = int(input('Total number of students: '))
 
 
-def marksCalculator(a, lb, m, s):
-    totalMarks = a + lb + m + s
+def marksCalculator(attendMark, lbMark, midTMark, sfMark):
+    totalMarks = attendMark + lbMark + midTMark + sfMark
     return totalMarks
 
 
 def gradeCalculator(marks):
-    if marks > 80:
+    if 80 <= marks <= 100:
         return 'A+'
-    elif marks > 70:
+    elif 70 <= marks < 80:
         return 'A'
-    elif marks > 60:
+    elif 60 <= marks < 70:
         return 'B'
-    elif marks > 50:
+    elif 50 <= marks < 60:
         return 'C'
-    elif marks > 40:
+    elif 40 <= marks < 50:
         return 'D'
-    else:
+    elif 40 <= marks < 0:
         return 'F'
+    else:
+        return 'Invalid Grade'
 
 
 i = 1
@@ -29,5 +31,5 @@ while i <= totalStudents:
     semesterFinalMarks = int(input(f'{i}th student\'s semester final marks out of 40: '))
     result = marksCalculator(attendanceMarks, labMarks, midTermMarks, semesterFinalMarks)
     grade = gradeCalculator(result)
-    print(f'Grade of {i}th student is: {grade} with Total = {result} marks')
+    print(f'{i}th student grade: {grade} and Total = {result} marks \n')
     i += 1
