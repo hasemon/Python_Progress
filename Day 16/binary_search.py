@@ -1,5 +1,4 @@
 # define function
-
 def binary_search(alist, low, high, search):
     mid = (low + high) // 2
     if high >= low:

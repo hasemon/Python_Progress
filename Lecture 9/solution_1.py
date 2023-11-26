@@ -12,9 +12,9 @@ highest = len(sorted_aList) - 1
 def binary_search(lst, lw, hg, slt):
     if hg >= lw:
         mid = (hg + lw) // 2
-        if sorted_aList[mid] == searchItem:
+        if sorted_aList[mid] == slt:
             return mid
-        elif sorted_aList[mid] > searchItem:
+        elif sorted_aList[mid] > slt:
             return binary_search(lst, lw, mid - 1, slt)
         else:
             return binary_search(lst, mid + 1, hg, slt)
