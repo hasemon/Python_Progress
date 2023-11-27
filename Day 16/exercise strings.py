@@ -13,7 +13,6 @@ userPass = input('Enter your password: ')
 #         print('Invalid Password')
 # else:
 #     print('Invalid Password')
-
 # other way
 
 if len(userPass) >= 8 and userPass.isalnum():

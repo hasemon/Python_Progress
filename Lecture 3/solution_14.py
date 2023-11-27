@@ -12,3 +12,4 @@ while count <= N:
     a = b
     b = c
     count += 1
+
