@@ -1,5 +1,5 @@
 # It’s...not really an adventure game...#Ver 1.0
-# Your village is being attacked by 'a germanic tribe' and you need to run to the stores and get the right things to save your village, and probably some good looking girl or boy you want to marry. All prices in gold pieces excl. VAT... chop chop!! ze germanz are coming!
+# Your village is being attacked by 'a germanic tribe' and you need to run to the stores and get the right things to save your village, and probably some good-looking girl or boy you want to marry. All prices in gold pieces excl. VAT... chop chop!! ze germane are coming!
 # The code should allow you to get 1 thing from each store and each item you get should be removed from the store inventory, then do same for next store...
 # one way to buy by typing the key 'newt' in an input box...or something
 # at end you should print the 'items' you have taken.in this version you don't have to pay for stuff or add it up
@@ -10,7 +10,7 @@
 # as in all games there is a special way to do this that actually makes money and solves the problem...can you find 'them'? Do you know why? May require knowledge of actual python 'lore'
 
 # create stores
-freelancers = {'name': 'freelancing Shop', 'brian': 70, 'black knight': 20, 'biccus diccus': 100, 'grim reaper': 500,
+freelancers = {'name': 'freelancing Shop', 'brian': 70, 'black knight': 20, 'icons discus': 100, 'grim reaper': 500,
                'minstrel': -15}
 antiques = {'name': 'Antique Shop', 'french castle': 400, 'wooden grail': 3, 'scythe': 150, 'catapult': 75,
             'german joke': 5}
@@ -25,4 +25,4 @@ for shop in (freelancers, antiques, pet_shop):
     # update the cart
     cart.update({buy_item: shop.pop(buy_item)})
     # use pop...
-print(f'You Purchased {cart} Today it is all free. Have a nice day of mayhem!')
+print(f'You Purchased {", ".join(list(cart.keys()))} Today it is all free. Have a nice day of mayhem!')
