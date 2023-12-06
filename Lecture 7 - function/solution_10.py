@@ -17,7 +17,6 @@ def nwGcdOfTwoNumbers(a, b):
     elif a < b:
         return nwGcdOfTwoNumbers(b, a)
     else:
-        print(b, a)
         return nwGcdOfTwoNumbers(b, b % a)
 
 

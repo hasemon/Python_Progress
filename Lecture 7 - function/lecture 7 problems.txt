@@ -2,7 +2,7 @@
 2. Write a Python function to check whether a number falls within a given range.
 3. Write a Python function to sum all the numbers in a list.
 4. Write a Python program to print the even numbers from a given list.
-5. Write a program to find area of surface based on a selection
+5. Write a program to find area of surface based on a selection.
 6. Write two Python function as sum() & average() to find the average of three
 numbers.
 7. Write two Python function as reverse() & palindromeCheck() to decide whether

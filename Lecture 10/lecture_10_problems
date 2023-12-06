@@ -7,3 +7,4 @@ dictionary.
 number (between 1 and n) in the form (x, x*x).
 5. Write a Python program to read first line of a file.
 6. Write a Python program to append text to a file and display the text.
+Added a line for solution 6

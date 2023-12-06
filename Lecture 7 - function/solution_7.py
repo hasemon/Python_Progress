@@ -22,6 +22,7 @@ def checkPalindrome(number):
 
 
 n = int(input("Enter a number to check for palindrome: "))
+print(reverseNum(n))
 output = checkPalindrome(n)
 if output:
     print("The number is palindrome")
